@@ -39,6 +39,8 @@
 
 - [Slack курса][link-slack]
 - [MDN Web Docs][link-mdn], этакий аналог MSDN в мире веб-разработки
+- [Roadmap курса][link-roadmap] в виде доски на Trello
 
 [link-slack]: https://join.slack.com/t/frontend-amcp/shared_invite/enQtNDQ1NTczMjAzMTU0LThjYzFlNDQzZWViMzUzNTIxMDg4N2Y4NGQ2Njg4YjM5OWQ0N2E4ZTBkYzNmZDg0MDhjNjQyNzU3NTFkMzQxMmI
 [link-mdn]: https://developer.mozilla.org/ru/
+[link-roadmap]: https://trello.com/b/QEKTJqh5
