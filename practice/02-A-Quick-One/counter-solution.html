@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+    <head>
+        <style>
+            body {
+                font-family: 'PT Sans Caption', sans-serif;
+            }
+
+            #value {
+                font-size: 42px;
+            }
+
+            .container {
+                display: flex;
+            }
+
+            .container > * {
+                margin-right: 15px;
+            }
+
+            button {
+                border: none;
+            }
+        </style> 
+    </head>
+    
+    <body>
+        <div class="container">
+            <button id="dec">-</button>
+            <div id="value">0</div>
+            <button id="inc">+</button>
+        </div>
+    </body>
+
+    <script>
+        let value = 0
+
+        $decrement = document.querySelector('#dec')
+        $increment = document.querySelector('#inc')
+
+        $value = document.querySelector('#value')
+
+        $decrement.addEventListener('click', () => value--)
+        $increment.addEventListener('click', () => value++)
+
+        const arr = [$increment, $decrement]
+
+        arr.forEach(el => el.addEventListener('click', () => $value.textContent = value))
+    </script>
+</html>
