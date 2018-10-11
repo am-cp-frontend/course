@@ -358,6 +358,24 @@ $todos.appendChild(todo)
 // напоминаний.
 ```
 
+## HTML-заготовка
+
+```html
+<!doctype html>
+<html>
+  <head>
+    <title>Заголовок страницы</title>
+
+    <!-- строка ниже подключает шрифты Josefin Sans и Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Roboto:300" rel="stylesheet">
+  </head>
+
+  <body>
+
+  </body>
+</html>
+```
+
 Удачи! Она вам понадобится.\
 И спасибо, что дочитали эту справку до конца.\
 На её написание ушёл не один час.
