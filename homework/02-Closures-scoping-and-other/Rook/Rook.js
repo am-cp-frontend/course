@@ -12,6 +12,5 @@ let rook = {
     moveToCenter: function() {
         // и здесь еще
        
-
     }
 }
