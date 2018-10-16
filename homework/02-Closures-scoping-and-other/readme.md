@@ -9,7 +9,7 @@
 Исходный код решения соответсвующей задачи, должен находиться в ```/<practice-path>/<task-name>/<task-name.js>```. Например решение задачи Sum должно быть написано в следующем файле:
 
 ```javascript
-// ./<practice-path>/Sum/Sum.js
+// /<practice-path>/Sum/Sum.js
 function sum(a) {
     //Напиши здесь свой код.
 }
