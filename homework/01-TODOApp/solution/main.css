@@ -1,0 +1,75 @@
+:root {
+    --app-background-color: rgb(247, 247, 247);
+    --input-background-color: rgb(248, 248, 248);
+    --header-font-color: rgb(65, 65, 65);
+    --todo-font-color: rgb(65, 65, 65);
+    --todo-background-color: rgb(247, 247, 247);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#app {
+    width: 650px;
+    margin: 30px auto;
+    padding: 50px 30px 30px;
+    background-color: var(--app-background-color);
+    border-radius: 2px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, .1)
+}
+
+.header {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Josefin Sans';
+    font-size: 52px;
+    color: var(--header-font-color);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, .15);
+    margin-bottom: 50px;
+}
+
+.input-wrapper {
+    padding: 9px 14px;
+    border: 1px rgb(230, 230, 230) solid;
+    border-radius: 4px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, .05);
+    background-color: var(--input-background-color);
+    margin-bottom: 30px;
+}
+
+.input {
+    font-size: 27px;
+    font-family: 'Roboto';
+    font-weight: 300;
+    width: 100%;
+    border: none;
+    padding: 2px;
+    background-color: var(--input-background-color);
+}
+
+.input::placeholder {
+    color: rgb(150, 150, 150);
+}
+
+#todo-input:focus {
+    outline: none;
+}
+
+.todos {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, .05);
+}
+
+.todo {
+    font-size: 27px;
+    background-color: var(--todo-background-color);
+    padding: 9px 14px;
+    color: var(--todo-font-color);
+    border-width: 1px;
+    border-color: rgb(240, 240, 240);
+    border-style: solid none none none;
+}
