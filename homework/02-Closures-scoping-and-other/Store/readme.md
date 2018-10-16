@@ -12,7 +12,7 @@
 let store = makeStore()
 store.append("bla-bla")
 console.log(store.getBuffer()) // 'bla-bla'
-store.append("bla-bla")
+store.append("bla-bla") // обратите внимание, что аргумент append не обязательно String
 console.log(store.getBuffer()) // 'bla-blabla-bla'
 store.clear()
 console.log(store.getBuffer) // ''
