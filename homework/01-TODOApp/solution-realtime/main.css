@@ -1,0 +1,61 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.app {
+    width: 650px;
+    margin: 30px auto;
+    padding: 50px 30px 30px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 2px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, .1);
+}
+
+.header {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 52px;
+    color: rgb(65, 65, 65);
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, .15);
+    margin-bottom: 50px;
+}
+
+.input-container {
+    padding: 9px 14px;
+    border: 1px rgb(230, 230, 230) solid;
+    border-radius: 4px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, .05);
+    background-color: rgb(248, 248, 248);
+    margin-bottom: 30px;
+}
+
+input {
+    border: none;
+    background-color: rgb(248, 248, 248);
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    font-weight: 300;
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: rgb(150, 150, 150);
+}
+
+.todo-container {
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, .05);
+}
+
+.todo {
+    font-size: 27px;
+    padding: 9px 14px;
+    background-color: rgb(247, 247, 247);
+    border-width: 1px;
+    border-color: rgb(240, 240, 240);
+    border-style: solid none none none;
+}
