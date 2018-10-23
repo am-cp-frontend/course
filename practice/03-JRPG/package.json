@@ -1,0 +1,11 @@
+{
+  "name": "03-JRPG",
+  "version": "1.0.0",
+  "description": "FF3-like JRPG",
+  "main": "index.js",
+  "author": "StargazingTux aka brotheroftux",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup ./src/main.js --format iife --file game.js"
+  }
+}
