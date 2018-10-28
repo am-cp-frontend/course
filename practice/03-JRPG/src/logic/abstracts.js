@@ -1,14 +1,15 @@
 class Character {
+ 
     calculateAttackDamage (attackPotency = 1.0) {
         
     }
 
     calculateSpellDamage (spellPotency) {
-
+        
     }
 
     calculateSpellHealing (spellPotency) {
-
+      
     }
 }
 
@@ -18,8 +19,13 @@ const SPELL_TYPES = {
     WEAPONSKILL: 2
 }
 
+const ROWS = {
+    BOSS: 1,
+    WOL: -1
+}
+
 class BasicSkill {
-    
+   
 }
 
 export default {
@@ -30,4 +36,4 @@ export default {
     Weaponskill
 }
 
-export { SPELL_TYPES }
+export { SPELL_TYPES, ROWS }

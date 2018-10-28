@@ -1,11 +1,8 @@
+import { ROWS } from '../logic/abstracts'
+
 function Offset () {
     this.x = 0
     this.y = 0
-}
-
-const ROWS = {
-    BOSS: 1,
-    WOL: -1
 }
 
 const makeCharacterObject = (name, className, spriteSrc, isWOL) => ({

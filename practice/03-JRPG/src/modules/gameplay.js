@@ -1,7 +1,7 @@
 import partyObject, { party } from './party'
 import render from './renderer'
 
-import { SPELL_TYPES } from '../logic/abstracts'
+import { SPELL_TYPES, ROWS } from '../logic/abstracts'
 
 let gameProcess = null
 

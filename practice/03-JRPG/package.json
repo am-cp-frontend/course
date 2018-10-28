@@ -6,6 +6,6 @@
   "author": "StargazingTux aka brotheroftux",
   "license": "MIT",
   "scripts": {
-    "build": "rollup ./src/main.js --format iife --file game.js"
+    "build": "rollup ./src/main.js --format iife --file game.js --watch"
   }
 }
