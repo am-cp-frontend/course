@@ -1,0 +1,8 @@
+.clock {
+  color: red;
+  font-size: 200px;
+  padding: 255px 0 255px;
+  border: 3px dotted green;
+  text-transform: uppercase;
+  box-shadow: 30px 70px 200px rgba(0, 255, 0, .6)
+}

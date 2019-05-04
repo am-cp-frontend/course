@@ -1,0 +1,16 @@
+{
+  "name": "react-temp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "author": "",
+  "license": "ISC"
+}
